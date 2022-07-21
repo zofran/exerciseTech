@@ -1,12 +1,23 @@
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class RomanNumeral {
 
 	public static void main(String[] args) {
-		int value;
-		value = 3999; // Value for testing
+		
+		try (Scanner scanner = new Scanner(System.in)) {
+			System.out.println("Ecrire un nombre: ");
 
-		System.out.format(" In roman numeral %d is: %s ", value, numeral(value));
+			//Reads the integer written by the user and assigns it  
+		
+			int nombre = scanner.nextInt();
+
+			System.out.format(" In roman numeral %d is: %s ", nombre, numeral(nombre));
+		}
+		catch (Exception e){
+			System.out.println("you must put an integer");
+		}
+		
 
 	}
 
