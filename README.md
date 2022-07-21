@@ -1,6 +1,6 @@
 # exerciseTech
 
-This is a sample project taht converts numbers from 1 - 3999 to Roman numerals. 
+This is a sample project that converts numbers from 1 - 3999 to Roman numerals. 
 
 principle:
 I broke my number down into thousands, hundreds, tens and units. 
